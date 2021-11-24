@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  OddEvenGame
+//  OddOrEvenGame
 //
-//  Created by Dongju on 2021/11/22.
+//  Created by Dongju on 2021/11/23.
 //
 
 import UIKit

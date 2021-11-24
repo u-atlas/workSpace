@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6FB25826274BB7CE00543EE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB25825274BB7CE00543EE3 /* AppDelegate.swift */; };
-		6FB25828274BB7CE00543EE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB25827274BB7CE00543EE3 /* SceneDelegate.swift */; };
-		6FB2582A274BB7CE00543EE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB25829274BB7CE00543EE3 /* ViewController.swift */; };
-		6FB2582D274BB7CE00543EE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FB2582B274BB7CE00543EE3 /* Main.storyboard */; };
-		6FB2582F274BB7CF00543EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FB2582E274BB7CF00543EE3 /* Assets.xcassets */; };
-		6FB25832274BB7CF00543EE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FB25830274BB7CF00543EE3 /* LaunchScreen.storyboard */; };
-		6FB2583D274BB7CF00543EE3 /* OddEvenGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB2583C274BB7CF00543EE3 /* OddEvenGameTests.swift */; };
-		6FB25848274BB7CF00543EE3 /* OddEvenGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB25847274BB7CF00543EE3 /* OddEvenGameUITests.swift */; };
+		6F5E7EFD274D349B0012AB8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E7EFC274D349B0012AB8A /* AppDelegate.swift */; };
+		6F5E7EFF274D349B0012AB8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E7EFE274D349B0012AB8A /* SceneDelegate.swift */; };
+		6F5E7F01274D349B0012AB8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E7F00274D349B0012AB8A /* ViewController.swift */; };
+		6F5E7F04274D349B0012AB8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5E7F02274D349B0012AB8A /* Main.storyboard */; };
+		6F5E7F06274D349C0012AB8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F5E7F05274D349C0012AB8A /* Assets.xcassets */; };
+		6F5E7F09274D349C0012AB8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5E7F07274D349C0012AB8A /* LaunchScreen.storyboard */; };
+		6F5E7F14274D349C0012AB8A /* OddOrEvenGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E7F13274D349C0012AB8A /* OddOrEvenGameTests.swift */; };
+		6F5E7F1F274D349C0012AB8A /* OddOrEvenGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E7F1E274D349C0012AB8A /* OddOrEvenGameUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6FB25839274BB7CF00543EE3 /* PBXContainerItemProxy */ = {
+		6F5E7F10274D349C0012AB8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6FB2581A274BB7CE00543EE3 /* Project object */;
+			containerPortal = 6F5E7EF1274D349B0012AB8A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6FB25821274BB7CE00543EE3;
-			remoteInfo = OddEvenGame;
+			remoteGlobalIDString = 6F5E7EF8274D349B0012AB8A;
+			remoteInfo = OddOrEvenGame;
 		};
-		6FB25844274BB7CF00543EE3 /* PBXContainerItemProxy */ = {
+		6F5E7F1B274D349C0012AB8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6FB2581A274BB7CE00543EE3 /* Project object */;
+			containerPortal = 6F5E7EF1274D349B0012AB8A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6FB25821274BB7CE00543EE3;
-			remoteInfo = OddEvenGame;
+			remoteGlobalIDString = 6F5E7EF8274D349B0012AB8A;
+			remoteInfo = OddOrEvenGame;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6FB25822274BB7CE00543EE3 /* OddEvenGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OddEvenGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FB25825274BB7CE00543EE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6FB25827274BB7CE00543EE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6FB25829274BB7CE00543EE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6FB2582C274BB7CE00543EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6FB2582E274BB7CF00543EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6FB25831274BB7CF00543EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6FB25833274BB7CF00543EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6FB25838274BB7CF00543EE3 /* OddEvenGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OddEvenGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FB2583C274BB7CF00543EE3 /* OddEvenGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddEvenGameTests.swift; sourceTree = "<group>"; };
-		6FB2583E274BB7CF00543EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6FB25843274BB7CF00543EE3 /* OddEvenGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OddEvenGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FB25847274BB7CF00543EE3 /* OddEvenGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddEvenGameUITests.swift; sourceTree = "<group>"; };
-		6FB25849274BB7CF00543EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F5E7EF9274D349B0012AB8A /* OddOrEvenGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OddOrEvenGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5E7EFC274D349B0012AB8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F5E7EFE274D349B0012AB8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6F5E7F00274D349B0012AB8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F5E7F03274D349B0012AB8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F5E7F05274D349C0012AB8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F5E7F08274D349C0012AB8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F5E7F0A274D349C0012AB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F5E7F0F274D349C0012AB8A /* OddOrEvenGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OddOrEvenGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5E7F13274D349C0012AB8A /* OddOrEvenGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddOrEvenGameTests.swift; sourceTree = "<group>"; };
+		6F5E7F15274D349C0012AB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F5E7F1A274D349C0012AB8A /* OddOrEvenGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OddOrEvenGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5E7F1E274D349C0012AB8A /* OddOrEvenGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddOrEvenGameUITests.swift; sourceTree = "<group>"; };
+		6F5E7F20274D349C0012AB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6FB2581F274BB7CE00543EE3 /* Frameworks */ = {
+		6F5E7EF6274D349B0012AB8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FB25835274BB7CF00543EE3 /* Frameworks */ = {
+		6F5E7F0C274D349C0012AB8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FB25840274BB7CF00543EE3 /* Frameworks */ = {
+		6F5E7F17274D349C0012AB8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,137 +76,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6FB25819274BB7CE00543EE3 = {
+		6F5E7EF0274D349B0012AB8A = {
 			isa = PBXGroup;
 			children = (
-				6FB25824274BB7CE00543EE3 /* OddEvenGame */,
-				6FB2583B274BB7CF00543EE3 /* OddEvenGameTests */,
-				6FB25846274BB7CF00543EE3 /* OddEvenGameUITests */,
-				6FB25823274BB7CE00543EE3 /* Products */,
+				6F5E7EFB274D349B0012AB8A /* OddOrEvenGame */,
+				6F5E7F12274D349C0012AB8A /* OddOrEvenGameTests */,
+				6F5E7F1D274D349C0012AB8A /* OddOrEvenGameUITests */,
+				6F5E7EFA274D349B0012AB8A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6FB25823274BB7CE00543EE3 /* Products */ = {
+		6F5E7EFA274D349B0012AB8A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6FB25822274BB7CE00543EE3 /* OddEvenGame.app */,
-				6FB25838274BB7CF00543EE3 /* OddEvenGameTests.xctest */,
-				6FB25843274BB7CF00543EE3 /* OddEvenGameUITests.xctest */,
+				6F5E7EF9274D349B0012AB8A /* OddOrEvenGame.app */,
+				6F5E7F0F274D349C0012AB8A /* OddOrEvenGameTests.xctest */,
+				6F5E7F1A274D349C0012AB8A /* OddOrEvenGameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6FB25824274BB7CE00543EE3 /* OddEvenGame */ = {
+		6F5E7EFB274D349B0012AB8A /* OddOrEvenGame */ = {
 			isa = PBXGroup;
 			children = (
-				6FB25825274BB7CE00543EE3 /* AppDelegate.swift */,
-				6FB25827274BB7CE00543EE3 /* SceneDelegate.swift */,
-				6FB25829274BB7CE00543EE3 /* ViewController.swift */,
-				6FB2582B274BB7CE00543EE3 /* Main.storyboard */,
-				6FB2582E274BB7CF00543EE3 /* Assets.xcassets */,
-				6FB25830274BB7CF00543EE3 /* LaunchScreen.storyboard */,
-				6FB25833274BB7CF00543EE3 /* Info.plist */,
+				6F5E7EFC274D349B0012AB8A /* AppDelegate.swift */,
+				6F5E7EFE274D349B0012AB8A /* SceneDelegate.swift */,
+				6F5E7F00274D349B0012AB8A /* ViewController.swift */,
+				6F5E7F02274D349B0012AB8A /* Main.storyboard */,
+				6F5E7F05274D349C0012AB8A /* Assets.xcassets */,
+				6F5E7F07274D349C0012AB8A /* LaunchScreen.storyboard */,
+				6F5E7F0A274D349C0012AB8A /* Info.plist */,
 			);
-			path = OddEvenGame;
+			path = OddOrEvenGame;
 			sourceTree = "<group>";
 		};
-		6FB2583B274BB7CF00543EE3 /* OddEvenGameTests */ = {
+		6F5E7F12274D349C0012AB8A /* OddOrEvenGameTests */ = {
 			isa = PBXGroup;
 			children = (
-				6FB2583C274BB7CF00543EE3 /* OddEvenGameTests.swift */,
-				6FB2583E274BB7CF00543EE3 /* Info.plist */,
+				6F5E7F13274D349C0012AB8A /* OddOrEvenGameTests.swift */,
+				6F5E7F15274D349C0012AB8A /* Info.plist */,
 			);
-			path = OddEvenGameTests;
+			path = OddOrEvenGameTests;
 			sourceTree = "<group>";
 		};
-		6FB25846274BB7CF00543EE3 /* OddEvenGameUITests */ = {
+		6F5E7F1D274D349C0012AB8A /* OddOrEvenGameUITests */ = {
 			isa = PBXGroup;
 			children = (
-				6FB25847274BB7CF00543EE3 /* OddEvenGameUITests.swift */,
-				6FB25849274BB7CF00543EE3 /* Info.plist */,
+				6F5E7F1E274D349C0012AB8A /* OddOrEvenGameUITests.swift */,
+				6F5E7F20274D349C0012AB8A /* Info.plist */,
 			);
-			path = OddEvenGameUITests;
+			path = OddOrEvenGameUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6FB25821274BB7CE00543EE3 /* OddEvenGame */ = {
+		6F5E7EF8274D349B0012AB8A /* OddOrEvenGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FB2584C274BB7CF00543EE3 /* Build configuration list for PBXNativeTarget "OddEvenGame" */;
+			buildConfigurationList = 6F5E7F23274D349C0012AB8A /* Build configuration list for PBXNativeTarget "OddOrEvenGame" */;
 			buildPhases = (
-				6FB2581E274BB7CE00543EE3 /* Sources */,
-				6FB2581F274BB7CE00543EE3 /* Frameworks */,
-				6FB25820274BB7CE00543EE3 /* Resources */,
+				6F5E7EF5274D349B0012AB8A /* Sources */,
+				6F5E7EF6274D349B0012AB8A /* Frameworks */,
+				6F5E7EF7274D349B0012AB8A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OddEvenGame;
-			productName = OddEvenGame;
-			productReference = 6FB25822274BB7CE00543EE3 /* OddEvenGame.app */;
+			name = OddOrEvenGame;
+			productName = OddOrEvenGame;
+			productReference = 6F5E7EF9274D349B0012AB8A /* OddOrEvenGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6FB25837274BB7CF00543EE3 /* OddEvenGameTests */ = {
+		6F5E7F0E274D349C0012AB8A /* OddOrEvenGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FB2584F274BB7CF00543EE3 /* Build configuration list for PBXNativeTarget "OddEvenGameTests" */;
+			buildConfigurationList = 6F5E7F26274D349C0012AB8A /* Build configuration list for PBXNativeTarget "OddOrEvenGameTests" */;
 			buildPhases = (
-				6FB25834274BB7CF00543EE3 /* Sources */,
-				6FB25835274BB7CF00543EE3 /* Frameworks */,
-				6FB25836274BB7CF00543EE3 /* Resources */,
+				6F5E7F0B274D349C0012AB8A /* Sources */,
+				6F5E7F0C274D349C0012AB8A /* Frameworks */,
+				6F5E7F0D274D349C0012AB8A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6FB2583A274BB7CF00543EE3 /* PBXTargetDependency */,
+				6F5E7F11274D349C0012AB8A /* PBXTargetDependency */,
 			);
-			name = OddEvenGameTests;
-			productName = OddEvenGameTests;
-			productReference = 6FB25838274BB7CF00543EE3 /* OddEvenGameTests.xctest */;
+			name = OddOrEvenGameTests;
+			productName = OddOrEvenGameTests;
+			productReference = 6F5E7F0F274D349C0012AB8A /* OddOrEvenGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6FB25842274BB7CF00543EE3 /* OddEvenGameUITests */ = {
+		6F5E7F19274D349C0012AB8A /* OddOrEvenGameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FB25852274BB7CF00543EE3 /* Build configuration list for PBXNativeTarget "OddEvenGameUITests" */;
+			buildConfigurationList = 6F5E7F29274D349C0012AB8A /* Build configuration list for PBXNativeTarget "OddOrEvenGameUITests" */;
 			buildPhases = (
-				6FB2583F274BB7CF00543EE3 /* Sources */,
-				6FB25840274BB7CF00543EE3 /* Frameworks */,
-				6FB25841274BB7CF00543EE3 /* Resources */,
+				6F5E7F16274D349C0012AB8A /* Sources */,
+				6F5E7F17274D349C0012AB8A /* Frameworks */,
+				6F5E7F18274D349C0012AB8A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6FB25845274BB7CF00543EE3 /* PBXTargetDependency */,
+				6F5E7F1C274D349C0012AB8A /* PBXTargetDependency */,
 			);
-			name = OddEvenGameUITests;
-			productName = OddEvenGameUITests;
-			productReference = 6FB25843274BB7CF00543EE3 /* OddEvenGameUITests.xctest */;
+			name = OddOrEvenGameUITests;
+			productName = OddOrEvenGameUITests;
+			productReference = 6F5E7F1A274D349C0012AB8A /* OddOrEvenGameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6FB2581A274BB7CE00543EE3 /* Project object */ = {
+		6F5E7EF1274D349B0012AB8A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					6FB25821274BB7CE00543EE3 = {
+					6F5E7EF8274D349B0012AB8A = {
 						CreatedOnToolsVersion = 12.5;
 					};
-					6FB25837274BB7CF00543EE3 = {
+					6F5E7F0E274D349C0012AB8A = {
 						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 6FB25821274BB7CE00543EE3;
+						TestTargetID = 6F5E7EF8274D349B0012AB8A;
 					};
-					6FB25842274BB7CF00543EE3 = {
+					6F5E7F19274D349C0012AB8A = {
 						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 6FB25821274BB7CE00543EE3;
+						TestTargetID = 6F5E7EF8274D349B0012AB8A;
 					};
 				};
 			};
-			buildConfigurationList = 6FB2581D274BB7CE00543EE3 /* Build configuration list for PBXProject "OddEvenGame" */;
+			buildConfigurationList = 6F5E7EF4274D349B0012AB8A /* Build configuration list for PBXProject "OddOrEvenGame" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 6FB25819274BB7CE00543EE3;
-			productRefGroup = 6FB25823274BB7CE00543EE3 /* Products */;
+			mainGroup = 6F5E7EF0274D349B0012AB8A;
+			productRefGroup = 6F5E7EFA274D349B0012AB8A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6FB25821274BB7CE00543EE3 /* OddEvenGame */,
-				6FB25837274BB7CF00543EE3 /* OddEvenGameTests */,
-				6FB25842274BB7CF00543EE3 /* OddEvenGameUITests */,
+				6F5E7EF8274D349B0012AB8A /* OddOrEvenGame */,
+				6F5E7F0E274D349C0012AB8A /* OddOrEvenGameTests */,
+				6F5E7F19274D349C0012AB8A /* OddOrEvenGameUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6FB25820274BB7CE00543EE3 /* Resources */ = {
+		6F5E7EF7274D349B0012AB8A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FB25832274BB7CF00543EE3 /* LaunchScreen.storyboard in Resources */,
-				6FB2582F274BB7CF00543EE3 /* Assets.xcassets in Resources */,
-				6FB2582D274BB7CE00543EE3 /* Main.storyboard in Resources */,
+				6F5E7F09274D349C0012AB8A /* LaunchScreen.storyboard in Resources */,
+				6F5E7F06274D349C0012AB8A /* Assets.xcassets in Resources */,
+				6F5E7F04274D349B0012AB8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FB25836274BB7CF00543EE3 /* Resources */ = {
+		6F5E7F0D274D349C0012AB8A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FB25841274BB7CF00543EE3 /* Resources */ = {
+		6F5E7F18274D349C0012AB8A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,60 +254,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6FB2581E274BB7CE00543EE3 /* Sources */ = {
+		6F5E7EF5274D349B0012AB8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FB2582A274BB7CE00543EE3 /* ViewController.swift in Sources */,
-				6FB25826274BB7CE00543EE3 /* AppDelegate.swift in Sources */,
-				6FB25828274BB7CE00543EE3 /* SceneDelegate.swift in Sources */,
+				6F5E7F01274D349B0012AB8A /* ViewController.swift in Sources */,
+				6F5E7EFD274D349B0012AB8A /* AppDelegate.swift in Sources */,
+				6F5E7EFF274D349B0012AB8A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FB25834274BB7CF00543EE3 /* Sources */ = {
+		6F5E7F0B274D349C0012AB8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FB2583D274BB7CF00543EE3 /* OddEvenGameTests.swift in Sources */,
+				6F5E7F14274D349C0012AB8A /* OddOrEvenGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FB2583F274BB7CF00543EE3 /* Sources */ = {
+		6F5E7F16274D349C0012AB8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FB25848274BB7CF00543EE3 /* OddEvenGameUITests.swift in Sources */,
+				6F5E7F1F274D349C0012AB8A /* OddOrEvenGameUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6FB2583A274BB7CF00543EE3 /* PBXTargetDependency */ = {
+		6F5E7F11274D349C0012AB8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6FB25821274BB7CE00543EE3 /* OddEvenGame */;
-			targetProxy = 6FB25839274BB7CF00543EE3 /* PBXContainerItemProxy */;
+			target = 6F5E7EF8274D349B0012AB8A /* OddOrEvenGame */;
+			targetProxy = 6F5E7F10274D349C0012AB8A /* PBXContainerItemProxy */;
 		};
-		6FB25845274BB7CF00543EE3 /* PBXTargetDependency */ = {
+		6F5E7F1C274D349C0012AB8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6FB25821274BB7CE00543EE3 /* OddEvenGame */;
-			targetProxy = 6FB25844274BB7CF00543EE3 /* PBXContainerItemProxy */;
+			target = 6F5E7EF8274D349B0012AB8A /* OddOrEvenGame */;
+			targetProxy = 6F5E7F1B274D349C0012AB8A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6FB2582B274BB7CE00543EE3 /* Main.storyboard */ = {
+		6F5E7F02274D349B0012AB8A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6FB2582C274BB7CE00543EE3 /* Base */,
+				6F5E7F03274D349B0012AB8A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6FB25830274BB7CF00543EE3 /* LaunchScreen.storyboard */ = {
+		6F5E7F07274D349C0012AB8A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6FB25831274BB7CF00543EE3 /* Base */,
+				6F5E7F08274D349C0012AB8A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -315,7 +315,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6FB2584A274BB7CF00543EE3 /* Debug */ = {
+		6F5E7F21274D349C0012AB8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		6FB2584B274BB7CF00543EE3 /* Release */ = {
+		6F5E7F22274D349C0012AB8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -431,168 +431,168 @@
 			};
 			name = Release;
 		};
-		6FB2584D274BB7CF00543EE3 /* Debug */ = {
+		6F5E7F24274D349C0012AB8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A3EA2QJTV5;
-				INFOPLIST_FILE = OddEvenGame/Info.plist;
+				INFOPLIST_FILE = OddOrEvenGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = study.OddEvenGame;
+				PRODUCT_BUNDLE_IDENTIFIER = study.OddOrEvenGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		6FB2584E274BB7CF00543EE3 /* Release */ = {
+		6F5E7F25274D349C0012AB8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A3EA2QJTV5;
-				INFOPLIST_FILE = OddEvenGame/Info.plist;
+				INFOPLIST_FILE = OddOrEvenGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = study.OddEvenGame;
+				PRODUCT_BUNDLE_IDENTIFIER = study.OddOrEvenGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		6FB25850274BB7CF00543EE3 /* Debug */ = {
+		6F5E7F27274D349C0012AB8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A3EA2QJTV5;
-				INFOPLIST_FILE = OddEvenGameTests/Info.plist;
+				INFOPLIST_FILE = OddOrEvenGameTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = study.OddEvenGameTests;
+				PRODUCT_BUNDLE_IDENTIFIER = study.OddOrEvenGameTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OddEvenGame.app/OddEvenGame";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OddOrEvenGame.app/OddOrEvenGame";
 			};
 			name = Debug;
 		};
-		6FB25851274BB7CF00543EE3 /* Release */ = {
+		6F5E7F28274D349C0012AB8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A3EA2QJTV5;
-				INFOPLIST_FILE = OddEvenGameTests/Info.plist;
+				INFOPLIST_FILE = OddOrEvenGameTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = study.OddEvenGameTests;
+				PRODUCT_BUNDLE_IDENTIFIER = study.OddOrEvenGameTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OddEvenGame.app/OddEvenGame";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OddOrEvenGame.app/OddOrEvenGame";
 			};
 			name = Release;
 		};
-		6FB25853274BB7CF00543EE3 /* Debug */ = {
+		6F5E7F2A274D349C0012AB8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A3EA2QJTV5;
-				INFOPLIST_FILE = OddEvenGameUITests/Info.plist;
+				INFOPLIST_FILE = OddOrEvenGameUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = study.OddEvenGameUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = study.OddOrEvenGameUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OddEvenGame;
+				TEST_TARGET_NAME = OddOrEvenGame;
 			};
 			name = Debug;
 		};
-		6FB25854274BB7CF00543EE3 /* Release */ = {
+		6F5E7F2B274D349C0012AB8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A3EA2QJTV5;
-				INFOPLIST_FILE = OddEvenGameUITests/Info.plist;
+				INFOPLIST_FILE = OddOrEvenGameUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = study.OddEvenGameUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = study.OddOrEvenGameUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OddEvenGame;
+				TEST_TARGET_NAME = OddOrEvenGame;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6FB2581D274BB7CE00543EE3 /* Build configuration list for PBXProject "OddEvenGame" */ = {
+		6F5E7EF4274D349B0012AB8A /* Build configuration list for PBXProject "OddOrEvenGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6FB2584A274BB7CF00543EE3 /* Debug */,
-				6FB2584B274BB7CF00543EE3 /* Release */,
+				6F5E7F21274D349C0012AB8A /* Debug */,
+				6F5E7F22274D349C0012AB8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FB2584C274BB7CF00543EE3 /* Build configuration list for PBXNativeTarget "OddEvenGame" */ = {
+		6F5E7F23274D349C0012AB8A /* Build configuration list for PBXNativeTarget "OddOrEvenGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6FB2584D274BB7CF00543EE3 /* Debug */,
-				6FB2584E274BB7CF00543EE3 /* Release */,
+				6F5E7F24274D349C0012AB8A /* Debug */,
+				6F5E7F25274D349C0012AB8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FB2584F274BB7CF00543EE3 /* Build configuration list for PBXNativeTarget "OddEvenGameTests" */ = {
+		6F5E7F26274D349C0012AB8A /* Build configuration list for PBXNativeTarget "OddOrEvenGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6FB25850274BB7CF00543EE3 /* Debug */,
-				6FB25851274BB7CF00543EE3 /* Release */,
+				6F5E7F27274D349C0012AB8A /* Debug */,
+				6F5E7F28274D349C0012AB8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FB25852274BB7CF00543EE3 /* Build configuration list for PBXNativeTarget "OddEvenGameUITests" */ = {
+		6F5E7F29274D349C0012AB8A /* Build configuration list for PBXNativeTarget "OddOrEvenGameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6FB25853274BB7CF00543EE3 /* Debug */,
-				6FB25854274BB7CF00543EE3 /* Release */,
+				6F5E7F2A274D349C0012AB8A /* Debug */,
+				6F5E7F2B274D349C0012AB8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6FB2581A274BB7CE00543EE3 /* Project object */;
+	rootObject = 6F5E7EF1274D349B0012AB8A /* Project object */;
 }
