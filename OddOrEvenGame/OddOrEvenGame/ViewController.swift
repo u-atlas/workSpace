@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var computerBallCountLbl: UILabel!
     @IBOutlet weak var userBallCountLbl: UILabel!
     @IBOutlet weak var resultLbl: UILabel!
+    @IBOutlet weak var imageContainer: UIView!
+    @IBOutlet weak var fistImage: UIImageView!
     
     var comBallsCount: Int = 20
     var userBallsCount: Int = 20
@@ -27,13 +29,24 @@ class ViewController: UIViewController {
         
         computerBallCountLbl.text = String(comBallsCount)
         userBallCountLbl.text = String(userBallsCount)
+        self.imageContainer.isHidden = true
         
     }
 
     @IBAction func gameStartPressed(_ sender: Any) {
-        print("게임시작!! ")
-        print(self.getRandom())
-        
+        self.imageContainer.isHidden = false
+
+        UIView.animate(withDuration: 3.0) {
+            self.fistImage.transform = CGAffineTransform(scaleX: 5, y: 5)
+            self.fistImage.transform = CGAffineTransform(scaleX: 1, y: 1)
+        } completion: { _ in
+            self.imageContainer.isHidden = true
+            self.showAlert()
+        }
+
+    }
+    
+    func showAlert(){
         let alert = UIAlertController.init(title: "GAME START", message: "홀 짝을 선택해주세요.", preferredStyle: .alert)
         
         let oddBtn = UIAlertAction.init(title: "홀", style: .default) { _ in
@@ -73,7 +86,6 @@ class ViewController: UIViewController {
         self.present(alert, animated: true) {
             print("화면이 띄워졌습니다.")
         }
-        
     }
     
     func getWinner(count: Int, select: String){
@@ -84,14 +96,19 @@ class ViewController: UIViewController {
         if comType == select {
             print("User win")
             result = result + "(User Win)"
+            self.resultLbl.text = result
             self.calculateBalls(winner: "user", count: count)
         }else{
             result = result + "(Com Win)"
             print("Computer win")
+            self.resultLbl.text = result
             self.calculateBalls(winner: "com", count: count)
         }
-        
-        self.resultLbl.text = result
+
+    }
+    
+    func checkAccountEmpty(balls: Int) -> Bool {
+        return balls == 0
     }
     
     func calculateBalls(winner: String, count: Int){
@@ -99,9 +116,19 @@ class ViewController: UIViewController {
         if winner == "com" {
             self.userBallsCount = self.userBallsCount - count
             self.comBallsCount = self.comBallsCount + count
+            
+            if self.checkAccountEmpty(balls: self.userBallsCount) {
+                self.resultLbl.text = "컴퓨터 최종승리"
+            }
+            
         }else {
             self.userBallsCount = self.userBallsCount + count
             self.comBallsCount = self.comBallsCount - count
+            
+            if self.checkAccountEmpty(balls: self.comBallsCount) {
+                self.resultLbl.text = "사용자 최종승리"
+            }
+            
         }
         
         self.userBallCountLbl.text = "\(self.userBallsCount)"
