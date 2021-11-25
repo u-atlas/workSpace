@@ -66,6 +66,20 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbk-f9-BV8">
+                                <rect key="frame" x="354" y="54" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="SkR-My-g6z"/>
+                                    <constraint firstAttribute="width" constant="50" id="fsC-iq-FcX"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="설정" image="pencil" catalog="system">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="settingBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SNl-KV-PNL"/>
+                                </connections>
+                            </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vou-Nm-wE0">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
@@ -91,7 +105,9 @@
                             <constraint firstItem="MOW-LZ-0IU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ajk-FE-ZoA"/>
                             <constraint firstItem="vou-Nm-wE0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="NDf-Rz-ihf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MOW-LZ-0IU" secondAttribute="trailing" id="Pcq-Sd-rbX"/>
+                            <constraint firstItem="zbk-f9-BV8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Qdj-aB-exC"/>
                             <constraint firstItem="jvy-sx-sdI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="TIL-EC-Jyy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zbk-f9-BV8" secondAttribute="trailing" constant="10" id="cMS-44-SDi"/>
                             <constraint firstItem="vou-Nm-wE0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="f9H-Vm-Obd"/>
                             <constraint firstItem="MOW-LZ-0IU" firstAttribute="bottom" secondItem="vou-Nm-wE0" secondAttribute="bottom" id="lsV-Wb-ZsS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jvy-sx-sdI" secondAttribute="trailing" id="qHq-5t-6FT"/>
@@ -110,10 +126,67 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="4.6875"/>
         </scene>
+        <!--Setting View Controller-->
+        <scene sceneID="AGN-av-jSg">
+            <objects>
+                <viewController storyboardIdentifier="SettingViewController" id="wF3-qJ-cwH" customClass="SettingViewController" customModule="OddOrEvenGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dJv-iS-GKP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="eUD-mh-yG5">
+                                <rect key="frame" x="149.5" y="431" width="115.5" height="34"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="구슬 개수" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YaX-rd-c44">
+                                        <rect key="frame" x="0.0" y="0.0" width="63.5" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oQb-F3-8g3">
+                                        <rect key="frame" x="83.5" y="0.0" width="32" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fiq-dg-WfY">
+                                <rect key="frame" x="0.0" y="812" width="414" height="50"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Qd2-vy-FSm"/>
+                                </constraints>
+                                <state key="normal" title="수정완료">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="completeBtnPressed:" destination="wF3-qJ-cwH" eventType="touchUpInside" id="QwZ-p5-1mw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pcC-xZ-yTw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eUD-mh-yG5" firstAttribute="centerY" secondItem="dJv-iS-GKP" secondAttribute="centerY" id="9yt-zz-aLk"/>
+                            <constraint firstItem="pcC-xZ-yTw" firstAttribute="trailing" secondItem="Fiq-dg-WfY" secondAttribute="trailing" id="C2d-Sw-RhQ"/>
+                            <constraint firstItem="pcC-xZ-yTw" firstAttribute="bottom" secondItem="Fiq-dg-WfY" secondAttribute="bottom" id="GLo-GM-pdS"/>
+                            <constraint firstItem="eUD-mh-yG5" firstAttribute="centerX" secondItem="dJv-iS-GKP" secondAttribute="centerX" id="Zbu-cc-f7F"/>
+                            <constraint firstItem="Fiq-dg-WfY" firstAttribute="leading" secondItem="pcC-xZ-yTw" secondAttribute="leading" id="hbV-1Y-gvd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ballsCountTextField" destination="oQb-F3-8g3" id="bEf-XJ-a4e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zXN-7u-pUe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="829" y="5"/>
+        </scene>
     </scenes>
     <resources>
         <image name="comImage" width="259" height="271"/>
         <image name="fistImage" width="1280" height="1255"/>
+        <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="userImage" width="269" height="292"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

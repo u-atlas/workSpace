@@ -18,6 +18,7 @@
 		6F5E7F39274FDECA0012AB8A /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F5E7F36274FDECA0012AB8A /* click.mp3 */; };
 		6F5E7F3A274FDECA0012AB8A /* gamestart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F5E7F37274FDECA0012AB8A /* gamestart.mp3 */; };
 		6F5E7F3B274FDECA0012AB8A /* intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F5E7F38274FDECA0012AB8A /* intro.mp3 */; };
+		6FBB6BE4274FEE63006175DC /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBB6BE3274FEE63006175DC /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		6F5E7F36274FDECA0012AB8A /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = click.mp3; path = ../../../resource/click.mp3; sourceTree = "<group>"; };
 		6F5E7F37274FDECA0012AB8A /* gamestart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gamestart.mp3; path = ../../../resource/gamestart.mp3; sourceTree = "<group>"; };
 		6F5E7F38274FDECA0012AB8A /* intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = intro.mp3; path = ../../../resource/intro.mp3; sourceTree = "<group>"; };
+		6FBB6BE3274FEE63006175DC /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				6F5E7F05274D349C0012AB8A /* Assets.xcassets */,
 				6F5E7F07274D349C0012AB8A /* LaunchScreen.storyboard */,
 				6F5E7F0A274D349C0012AB8A /* Info.plist */,
+				6FBB6BE3274FEE63006175DC /* SettingViewController.swift */,
 			);
 			path = OddOrEvenGame;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				6F5E7F01274D349B0012AB8A /* ViewController.swift in Sources */,
 				6F5E7EFD274D349B0012AB8A /* AppDelegate.swift in Sources */,
 				6F5E7EFF274D349B0012AB8A /* SceneDelegate.swift in Sources */,
+				6FBB6BE4274FEE63006175DC /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
