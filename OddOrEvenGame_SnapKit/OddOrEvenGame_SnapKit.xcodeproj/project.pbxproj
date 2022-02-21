@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FFE6BAF27C274F500AF8C03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE6BAE27C274F500AF8C03 /* AppDelegate.swift */; };
+		6FFE6BB127C274F500AF8C03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE6BB027C274F500AF8C03 /* SceneDelegate.swift */; };
+		6FFE6BB327C274F500AF8C03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE6BB227C274F500AF8C03 /* ViewController.swift */; };
+		6FFE6BB627C274F500AF8C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FFE6BB427C274F500AF8C03 /* Main.storyboard */; };
+		6FFE6BB827C274F900AF8C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FFE6BB727C274F900AF8C03 /* Assets.xcassets */; };
+		6FFE6BBB27C274F900AF8C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FFE6BB927C274F900AF8C03 /* LaunchScreen.storyboard */; };
+		6FFE6BC627C274FA00AF8C03 /* OddOrEvenGame_SnapKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE6BC527C274FA00AF8C03 /* OddOrEvenGame_SnapKitTests.swift */; };
+		6FFE6BD027C274FA00AF8C03 /* OddOrEvenGame_SnapKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE6BCF27C274FA00AF8C03 /* OddOrEvenGame_SnapKitUITests.swift */; };
+		6FFE6BD227C274FA00AF8C03 /* OddOrEvenGame_SnapKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE6BD127C274FA00AF8C03 /* OddOrEvenGame_SnapKitUITestsLaunchTests.swift */; };
+		6FFE6BE127C2769600AF8C03 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 6FFE6BE027C2769600AF8C03 /* Then */; };
+		6FFE6BE327C276EB00AF8C03 /* PlaygroundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE6BE227C276EB00AF8C03 /* PlaygroundController.swift */; };
+		6FFE6BE627C3898800AF8C03 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE6BE527C3898800AF8C03 /* GameView.swift */; };
+		6FFE6BE927C38AF200AF8C03 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6FFE6BE827C38AF200AF8C03 /* SnapKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FFE6BC227C274FA00AF8C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FFE6BA327C274F500AF8C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FFE6BAA27C274F500AF8C03;
+			remoteInfo = OddOrEvenGame_SnapKit;
+		};
+		6FFE6BCC27C274FA00AF8C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FFE6BA327C274F500AF8C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FFE6BAA27C274F500AF8C03;
+			remoteInfo = OddOrEvenGame_SnapKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FFE6BAB27C274F500AF8C03 /* OddOrEvenGame_SnapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OddOrEvenGame_SnapKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFE6BAE27C274F500AF8C03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FFE6BB027C274F500AF8C03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6FFE6BB227C274F500AF8C03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6FFE6BB527C274F500AF8C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FFE6BB727C274F900AF8C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FFE6BBA27C274F900AF8C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FFE6BBC27C274F900AF8C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FFE6BC127C274FA00AF8C03 /* OddOrEvenGame_SnapKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OddOrEvenGame_SnapKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFE6BC527C274FA00AF8C03 /* OddOrEvenGame_SnapKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddOrEvenGame_SnapKitTests.swift; sourceTree = "<group>"; };
+		6FFE6BCB27C274FA00AF8C03 /* OddOrEvenGame_SnapKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OddOrEvenGame_SnapKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFE6BCF27C274FA00AF8C03 /* OddOrEvenGame_SnapKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddOrEvenGame_SnapKitUITests.swift; sourceTree = "<group>"; };
+		6FFE6BD127C274FA00AF8C03 /* OddOrEvenGame_SnapKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddOrEvenGame_SnapKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6FFE6BE227C276EB00AF8C03 /* PlaygroundController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundController.swift; sourceTree = "<group>"; };
+		6FFE6BE527C3898800AF8C03 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FFE6BA827C274F500AF8C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFE6BE127C2769600AF8C03 /* Then in Frameworks */,
+				6FFE6BE927C38AF200AF8C03 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFE6BBE27C274FA00AF8C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFE6BC827C274FA00AF8C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FFE6BA227C274F500AF8C03 = {
+			isa = PBXGroup;
+			children = (
+				6FFE6BAD27C274F500AF8C03 /* OddOrEvenGame_SnapKit */,
+				6FFE6BC427C274FA00AF8C03 /* OddOrEvenGame_SnapKitTests */,
+				6FFE6BCE27C274FA00AF8C03 /* OddOrEvenGame_SnapKitUITests */,
+				6FFE6BAC27C274F500AF8C03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FFE6BAC27C274F500AF8C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FFE6BAB27C274F500AF8C03 /* OddOrEvenGame_SnapKit.app */,
+				6FFE6BC127C274FA00AF8C03 /* OddOrEvenGame_SnapKitTests.xctest */,
+				6FFE6BCB27C274FA00AF8C03 /* OddOrEvenGame_SnapKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FFE6BAD27C274F500AF8C03 /* OddOrEvenGame_SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				6FFE6BE427C3892600AF8C03 /* snapkit */,
+				6FFE6BAE27C274F500AF8C03 /* AppDelegate.swift */,
+				6FFE6BB027C274F500AF8C03 /* SceneDelegate.swift */,
+				6FFE6BB227C274F500AF8C03 /* ViewController.swift */,
+				6FFE6BB427C274F500AF8C03 /* Main.storyboard */,
+				6FFE6BB727C274F900AF8C03 /* Assets.xcassets */,
+				6FFE6BB927C274F900AF8C03 /* LaunchScreen.storyboard */,
+				6FFE6BBC27C274F900AF8C03 /* Info.plist */,
+			);
+			path = OddOrEvenGame_SnapKit;
+			sourceTree = "<group>";
+		};
+		6FFE6BC427C274FA00AF8C03 /* OddOrEvenGame_SnapKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FFE6BC527C274FA00AF8C03 /* OddOrEvenGame_SnapKitTests.swift */,
+			);
+			path = OddOrEvenGame_SnapKitTests;
+			sourceTree = "<group>";
+		};
+		6FFE6BCE27C274FA00AF8C03 /* OddOrEvenGame_SnapKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FFE6BCF27C274FA00AF8C03 /* OddOrEvenGame_SnapKitUITests.swift */,
+				6FFE6BD127C274FA00AF8C03 /* OddOrEvenGame_SnapKitUITestsLaunchTests.swift */,
+			);
+			path = OddOrEvenGame_SnapKitUITests;
+			sourceTree = "<group>";
+		};
+		6FFE6BE427C3892600AF8C03 /* snapkit */ = {
+			isa = PBXGroup;
+			children = (
+				6FFE6BE227C276EB00AF8C03 /* PlaygroundController.swift */,
+				6FFE6BE527C3898800AF8C03 /* GameView.swift */,
+			);
+			path = snapkit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FFE6BAA27C274F500AF8C03 /* OddOrEvenGame_SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FFE6BD527C274FA00AF8C03 /* Build configuration list for PBXNativeTarget "OddOrEvenGame_SnapKit" */;
+			buildPhases = (
+				6FFE6BA727C274F500AF8C03 /* Sources */,
+				6FFE6BA827C274F500AF8C03 /* Frameworks */,
+				6FFE6BA927C274F500AF8C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OddOrEvenGame_SnapKit;
+			packageProductDependencies = (
+				6FFE6BE027C2769600AF8C03 /* Then */,
+				6FFE6BE827C38AF200AF8C03 /* SnapKit */,
+			);
+			productName = OddOrEvenGame_SnapKit;
+			productReference = 6FFE6BAB27C274F500AF8C03 /* OddOrEvenGame_SnapKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FFE6BC027C274FA00AF8C03 /* OddOrEvenGame_SnapKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FFE6BD827C274FA00AF8C03 /* Build configuration list for PBXNativeTarget "OddOrEvenGame_SnapKitTests" */;
+			buildPhases = (
+				6FFE6BBD27C274FA00AF8C03 /* Sources */,
+				6FFE6BBE27C274FA00AF8C03 /* Frameworks */,
+				6FFE6BBF27C274FA00AF8C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FFE6BC327C274FA00AF8C03 /* PBXTargetDependency */,
+			);
+			name = OddOrEvenGame_SnapKitTests;
+			productName = OddOrEvenGame_SnapKitTests;
+			productReference = 6FFE6BC127C274FA00AF8C03 /* OddOrEvenGame_SnapKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FFE6BCA27C274FA00AF8C03 /* OddOrEvenGame_SnapKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FFE6BDB27C274FA00AF8C03 /* Build configuration list for PBXNativeTarget "OddOrEvenGame_SnapKitUITests" */;
+			buildPhases = (
+				6FFE6BC727C274FA00AF8C03 /* Sources */,
+				6FFE6BC827C274FA00AF8C03 /* Frameworks */,
+				6FFE6BC927C274FA00AF8C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FFE6BCD27C274FA00AF8C03 /* PBXTargetDependency */,
+			);
+			name = OddOrEvenGame_SnapKitUITests;
+			productName = OddOrEvenGame_SnapKitUITests;
+			productReference = 6FFE6BCB27C274FA00AF8C03 /* OddOrEvenGame_SnapKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FFE6BA327C274F500AF8C03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					6FFE6BAA27C274F500AF8C03 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					6FFE6BC027C274FA00AF8C03 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 6FFE6BAA27C274F500AF8C03;
+					};
+					6FFE6BCA27C274FA00AF8C03 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 6FFE6BAA27C274F500AF8C03;
+					};
+				};
+			};
+			buildConfigurationList = 6FFE6BA627C274F500AF8C03 /* Build configuration list for PBXProject "OddOrEvenGame_SnapKit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FFE6BA227C274F500AF8C03;
+			packageReferences = (
+				6FFE6BDF27C2769600AF8C03 /* XCRemoteSwiftPackageReference "Then" */,
+				6FFE6BE727C38AF200AF8C03 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 6FFE6BAC27C274F500AF8C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FFE6BAA27C274F500AF8C03 /* OddOrEvenGame_SnapKit */,
+				6FFE6BC027C274FA00AF8C03 /* OddOrEvenGame_SnapKitTests */,
+				6FFE6BCA27C274FA00AF8C03 /* OddOrEvenGame_SnapKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FFE6BA927C274F500AF8C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFE6BBB27C274F900AF8C03 /* LaunchScreen.storyboard in Resources */,
+				6FFE6BB827C274F900AF8C03 /* Assets.xcassets in Resources */,
+				6FFE6BB627C274F500AF8C03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFE6BBF27C274FA00AF8C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFE6BC927C274FA00AF8C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FFE6BA727C274F500AF8C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFE6BB327C274F500AF8C03 /* ViewController.swift in Sources */,
+				6FFE6BAF27C274F500AF8C03 /* AppDelegate.swift in Sources */,
+				6FFE6BE327C276EB00AF8C03 /* PlaygroundController.swift in Sources */,
+				6FFE6BB127C274F500AF8C03 /* SceneDelegate.swift in Sources */,
+				6FFE6BE627C3898800AF8C03 /* GameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFE6BBD27C274FA00AF8C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFE6BC627C274FA00AF8C03 /* OddOrEvenGame_SnapKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFE6BC727C274FA00AF8C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFE6BD227C274FA00AF8C03 /* OddOrEvenGame_SnapKitUITestsLaunchTests.swift in Sources */,
+				6FFE6BD027C274FA00AF8C03 /* OddOrEvenGame_SnapKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FFE6BC327C274FA00AF8C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FFE6BAA27C274F500AF8C03 /* OddOrEvenGame_SnapKit */;
+			targetProxy = 6FFE6BC227C274FA00AF8C03 /* PBXContainerItemProxy */;
+		};
+		6FFE6BCD27C274FA00AF8C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FFE6BAA27C274F500AF8C03 /* OddOrEvenGame_SnapKit */;
+			targetProxy = 6FFE6BCC27C274FA00AF8C03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FFE6BB427C274F500AF8C03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FFE6BB527C274F500AF8C03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FFE6BB927C274F900AF8C03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FFE6BBA27C274F900AF8C03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FFE6BD327C274FA00AF8C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FFE6BD427C274FA00AF8C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FFE6BD627C274FA00AF8C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UAY4HKY2PC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OddOrEvenGame_SnapKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "artie.OddOrEvenGame-SnapKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FFE6BD727C274FA00AF8C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UAY4HKY2PC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OddOrEvenGame_SnapKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "artie.OddOrEvenGame-SnapKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6FFE6BD927C274FA00AF8C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UAY4HKY2PC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "artie.OddOrEvenGame-SnapKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OddOrEvenGame_SnapKit.app/OddOrEvenGame_SnapKit";
+			};
+			name = Debug;
+		};
+		6FFE6BDA27C274FA00AF8C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UAY4HKY2PC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "artie.OddOrEvenGame-SnapKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OddOrEvenGame_SnapKit.app/OddOrEvenGame_SnapKit";
+			};
+			name = Release;
+		};
+		6FFE6BDC27C274FA00AF8C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UAY4HKY2PC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "artie.OddOrEvenGame-SnapKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OddOrEvenGame_SnapKit;
+			};
+			name = Debug;
+		};
+		6FFE6BDD27C274FA00AF8C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UAY4HKY2PC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "artie.OddOrEvenGame-SnapKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OddOrEvenGame_SnapKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FFE6BA627C274F500AF8C03 /* Build configuration list for PBXProject "OddOrEvenGame_SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFE6BD327C274FA00AF8C03 /* Debug */,
+				6FFE6BD427C274FA00AF8C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FFE6BD527C274FA00AF8C03 /* Build configuration list for PBXNativeTarget "OddOrEvenGame_SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFE6BD627C274FA00AF8C03 /* Debug */,
+				6FFE6BD727C274FA00AF8C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FFE6BD827C274FA00AF8C03 /* Build configuration list for PBXNativeTarget "OddOrEvenGame_SnapKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFE6BD927C274FA00AF8C03 /* Debug */,
+				6FFE6BDA27C274FA00AF8C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FFE6BDB27C274FA00AF8C03 /* Build configuration list for PBXNativeTarget "OddOrEvenGame_SnapKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFE6BDC27C274FA00AF8C03 /* Debug */,
+				6FFE6BDD27C274FA00AF8C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6FFE6BDF27C2769600AF8C03 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		6FFE6BE727C38AF200AF8C03 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6FFE6BE027C2769600AF8C03 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6FFE6BDF27C2769600AF8C03 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		6FFE6BE827C38AF200AF8C03 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6FFE6BE727C38AF200AF8C03 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6FFE6BA327C274F500AF8C03 /* Project object */;
+}
