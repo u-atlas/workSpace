@@ -27,14 +27,6 @@ enum Player: String {
     case user = "User"
 }
 
-struct GameResult {
-    var userCount: String
-    var comCount: String
-    var resultMessage: String
-    var winner: Player?
-    var gamtStatus: GameStatus
-}
-
 //ViewModel 생성
 class GameViewModel {
     var userBallsCount: Int
