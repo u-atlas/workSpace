@@ -15,7 +15,7 @@ class PlaygroundController: UIViewController {
         $0.backgroundColor = .yellow
         $0.setTitleColor(.black, for: .normal)
         $0.setTitle("GAME START", for: .normal)
-        $0.addTarget(self, action: #selector(gameStartPressed), for: .touchUpInside)
+        $0.addTarget(PlaygroundController.self, action: #selector(gameStartPressed), for: .touchUpInside)
     }
     
     var gameView = GameView()
