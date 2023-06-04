@@ -19,6 +19,11 @@
 		6F5E7F3A274FDECA0012AB8A /* gamestart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F5E7F37274FDECA0012AB8A /* gamestart.mp3 */; };
 		6F5E7F3B274FDECA0012AB8A /* intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F5E7F38274FDECA0012AB8A /* intro.mp3 */; };
 		6FBB6BE4274FEE63006175DC /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBB6BE3274FEE63006175DC /* SettingViewController.swift */; };
+		6FF392F229AF9DD50076BD64 /* PlaygroundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF392F129AF9DD50076BD64 /* PlaygroundController.swift */; };
+		6FF392F429AF9DE90076BD64 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF392F329AF9DE90076BD64 /* GameView.swift */; };
+		6FF392F629AF9DF40076BD64 /* FistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF392F529AF9DF40076BD64 /* FistView.swift */; };
+		6FF392F829AF9E040076BD64 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF392F729AF9E040076BD64 /* GameViewModel.swift */; };
+		6FF392FA29AF9E150076BD64 /* GameResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF392F929AF9E150076BD64 /* GameResultModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +62,11 @@
 		6F5E7F37274FDECA0012AB8A /* gamestart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gamestart.mp3; path = ../../../resource/gamestart.mp3; sourceTree = "<group>"; };
 		6F5E7F38274FDECA0012AB8A /* intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = intro.mp3; path = ../../../resource/intro.mp3; sourceTree = "<group>"; };
 		6FBB6BE3274FEE63006175DC /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		6FF392F129AF9DD50076BD64 /* PlaygroundController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundController.swift; sourceTree = "<group>"; };
+		6FF392F329AF9DE90076BD64 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		6FF392F529AF9DF40076BD64 /* FistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FistView.swift; sourceTree = "<group>"; };
+		6FF392F729AF9E040076BD64 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		6FF392F929AF9E150076BD64 /* GameResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +118,7 @@
 		6F5E7EFB274D349B0012AB8A /* OddOrEvenGame */ = {
 			isa = PBXGroup;
 			children = (
+				6FF392F029AF9D6D0076BD64 /* SnapKit */,
 				6F5E7EFC274D349B0012AB8A /* AppDelegate.swift */,
 				6F5E7EFE274D349B0012AB8A /* SceneDelegate.swift */,
 				6F5E7F00274D349B0012AB8A /* ViewController.swift */,
@@ -146,6 +157,18 @@
 				6F5E7F38274FDECA0012AB8A /* intro.mp3 */,
 			);
 			path = mp3;
+			sourceTree = "<group>";
+		};
+		6FF392F029AF9D6D0076BD64 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				6FF392F129AF9DD50076BD64 /* PlaygroundController.swift */,
+				6FF392F329AF9DE90076BD64 /* GameView.swift */,
+				6FF392F529AF9DF40076BD64 /* FistView.swift */,
+				6FF392F729AF9E040076BD64 /* GameViewModel.swift */,
+				6FF392F929AF9E150076BD64 /* GameResultModel.swift */,
+			);
+			path = SnapKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,9 +304,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FF392F629AF9DF40076BD64 /* FistView.swift in Sources */,
 				6F5E7F01274D349B0012AB8A /* ViewController.swift in Sources */,
+				6FF392F229AF9DD50076BD64 /* PlaygroundController.swift in Sources */,
 				6F5E7EFD274D349B0012AB8A /* AppDelegate.swift in Sources */,
+				6FF392F829AF9E040076BD64 /* GameViewModel.swift in Sources */,
 				6F5E7EFF274D349B0012AB8A /* SceneDelegate.swift in Sources */,
+				6FF392F429AF9DE90076BD64 /* GameView.swift in Sources */,
+				6FF392FA29AF9E150076BD64 /* GameResultModel.swift in Sources */,
 				6FBB6BE4274FEE63006175DC /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

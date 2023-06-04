@@ -183,6 +183,8 @@ class ViewController: UIViewController, SettingDelegate {
     func getBallsCount(ballsCount: Int) {
         self.userBallCountLbl.text = "\(ballsCount)"
         self.computerBallCountLbl.text = "\(ballsCount)"
+        self.userBallsCount = ballsCount
+        self.comBallsCount = ballsCount
     }
     
 }
